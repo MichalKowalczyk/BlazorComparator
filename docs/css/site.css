@@ -2,10 +2,35 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #d3d3d3;
+}
+
+.container{
+    margin-top: 30px;
+    margin-top: 30px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px #00000020;
+}
+
+button{
+    background: #cecece;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    background: #bebebe;
 }
 
 canvas{
-    border: 1px solid black;
+    border: 1px solid #00000020;
 }
 
 .col-lg-6{

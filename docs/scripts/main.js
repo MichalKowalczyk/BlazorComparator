@@ -11,12 +11,12 @@ jsButton.addEventListener("click", function (e) {
     timerSpan.innerHTML = Math.round((performance.now() - t0)) + "ms";
 }, false);
 
-var jsButton = document.getElementById("jsButtonHigh");
-jsButton.addEventListener("click", function (e) {
+var jsButtonHigh = document.getElementById("jsButtonHigh");
+jsButtonHigh.addEventListener("click", function (e) {
     
     var canvas = document.getElementById("myCanvasHigh");
     var timerSpan = document.getElementById("jsTimerHigh");
-    jsButton.setAttribute("disabled", "true");
+    jsButtonHigh.setAttribute("disabled", "true");
     var t0 = performance.now();
     draw(canvas, 1);
     timerSpan.innerHTML = Math.round((performance.now() - t0)) + "ms";
