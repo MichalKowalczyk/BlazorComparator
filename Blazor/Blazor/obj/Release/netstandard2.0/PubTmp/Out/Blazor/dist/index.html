@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Blazor</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to speed comparator!</h1>
+        <h2>Blazor vs JavaScript in work with canvas</h2>
+        <h3>Click on the first render button and wait. It might take few seconds, please wait. If you'll get first result, please click on the second button and again wait few seconds.</h3>
+        <div class="row">
+            <div class="col-lg-6">
+                <app>Loading...</app>
+            </div>
+            <div class="col-lg-6">
+                <canvas id="myCanvas" width="400" height="400"></canvas><br />
+                <button id="jsButton">Render by JS</button> <span id="jsTimer"></span>
+            </div>
+        </div>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="scripts/complex.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

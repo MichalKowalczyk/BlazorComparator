@@ -1,0 +1,5 @@
+﻿@page "/"
+@inherits IndexComponent
+
+<BECanvas Width="400" Height="400" ref="@_canvasReference"></BECanvas>
+<button onclick="@Paint" disabled="@DisableRenderButton">Render by Blazor</button> <span>@Timer</span>

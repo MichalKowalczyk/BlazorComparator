@@ -1,0 +1,8 @@
+C:\Users\micha\.nuget\packages\blazor.extensions.canvas\0.1.6\lib\netstandard2.0\Blazor.Extensions.Canvas.JS.dll
+C:\Users\micha\.nuget\packages\blazor.extensions.canvas\0.1.6\lib\netstandard2.0\Blazor.Extensions.Canvas.dll
+C:\Users\micha\.nuget\packages\microsoft.aspnetcore.blazor\0.5.1\lib\netstandard2.0\Microsoft.AspNetCore.Blazor.dll
+C:\Users\micha\.nuget\packages\microsoft.aspnetcore.blazor.browser\0.5.1\lib\netstandard2.0\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\Users\micha\.nuget\packages\microsoft.extensions.dependencyinjection\2.1.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\micha\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.1.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\micha\.nuget\packages\microsoft.jsinterop\0.5.1\lib\netstandard2.0\Microsoft.JSInterop.dll
+C:\Users\micha\.nuget\packages\mono.webassembly.interop\0.5.1\lib\netstandard2.0\Mono.WebAssembly.Interop.dll
