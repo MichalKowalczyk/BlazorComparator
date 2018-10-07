@@ -7,3 +7,15 @@ html, body {
 canvas{
     border: 1px solid black;
 }
+
+.col-lg-6{
+    text-align: center;
+}
+
+.col-lg-12{
+    text-align: center;
+}
+
+.headder{
+    margin: auto;
+}

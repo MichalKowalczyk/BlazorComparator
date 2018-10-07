@@ -1,25 +1,36 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
-    <title>Blazor</title>
-    <!-- <base href="BlazorComparator/"/> -->
+    <title>BlazorComparator</title>
     <link href="/BlazorComparator/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="/BlazorComparator/css/site.css" rel="stylesheet" />
 </head>
+
 <body>
     <div class="container">
         <h1>Welcome to speed comparator!</h1>
         <h2>Blazor vs JavaScript in work with canvas</h2>
-        <h3>Push first render button and wait. It might take few seconds, please wait. If you'll get first result, please click on the second button and again wait few seconds.</h3>
+        <h3>Press first render button and wait. It might take few seconds, please wait. After getting first result,
+            please press the second button and again wait few seconds.</h3>
         <div class="row">
             <div class="col-lg-6">
+                <div class="headder">Low resolution Blazor</div>
                 <app>Loading...</app>
             </div>
             <div class="col-lg-6">
+                <div class="headder">Low resolution JS</div>
                 <canvas id="myCanvas" width="400" height="400"></canvas><br />
                 <button id="jsButton">Render by JS</button> <span id="jsTimer"></span>
+            </div>
+            <div class="col-lg-12">
+                <br>
+                <br>
+                <div class="headder">High resolution JS</div>
+                <canvas id="myCanvasHigh" width="400" height="400"></canvas><br />
+                <button id="jsButtonHigh">Render by JS</button> <span id="jsTimerHigh"></span>
             </div>
         </div>
     </div>
@@ -27,4 +38,5 @@
     <script src="/BlazorComparator/scripts/complex.js"></script>
     <script src="/BlazorComparator/scripts/main.js"></script>
 </body>
+
 </html>
