@@ -3,14 +3,14 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background: #d3d3d3;
+    padding: 30px;
 }
 
 .container{
-    margin-top: 30px;
-    margin-top: 30px;
     background: white;
     border-radius: 5px;
     box-shadow: 5px 5px 50px #00000020;
+    padding: 10px;
 }
 
 button{
@@ -19,6 +19,18 @@ button{
     border-radius: 5px;
     padding: 10px;
     outline: none;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    padding: 10px;
+    font-weight: thin;
 }
 
 button:hover{
@@ -43,4 +55,12 @@ canvas{
 
 .headder{
     margin: auto;
+}
+
+#jsTimerHigh{
+    font-weight: bold;
+}
+
+jsTimer{
+    font-weight: bold;
 }
